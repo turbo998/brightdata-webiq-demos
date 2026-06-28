@@ -1,0 +1,15 @@
+{
+  "_comment": "Representative shape of a Microsoft Web IQ /v3/search/web response. Real keys: webResults[].title, .url, .content (lightly HTML-tagged passages with attribution).",
+  "webResults": [
+    {
+      "title": "The 2026 AI Index Report | Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "content": "<H1>The 2026 AI Index Report</H1><P>The AI Index offers one of the most comprehensive, data-driven views of artificial intelligence, equipping policymakers and the public with rigorous, objective insights into AI's technical progress, economic influence, and societal impact.</P>"
+    },
+    {
+      "title": "Best Lenovo ThinkPad laptops 2026 — buyer's guide",
+      "url": "https://example-review-site.com/best-thinkpad-2026",
+      "content": "<H2>Best ThinkPad for travel</H2><P>For frequent travelers the ThinkPad X1 Carbon stays the top pick for its sub-1kg chassis and all-day battery, while the T14 line offers the best price-to-performance under $1500.</P>"
+    }
+  ]
+}

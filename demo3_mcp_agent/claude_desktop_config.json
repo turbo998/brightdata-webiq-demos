@@ -1,0 +1,17 @@
+{
+  "//": "Bright Data Web MCP — local server via npx. Put this in Claude Desktop's config:",
+  "//_macos": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "//_windows": "%APPDATA%\\Claude\\claude_desktop_config.json",
+  "//_token": "Replace YOUR_BRIGHTDATA_API_TOKEN. Free tier = 5,000 credits/month, no card.",
+  "//_alt": "Simplest alternative (no npx): Claude Desktop > Settings > Connectors > Add custom connector > URL https://mcp.brightdata.com/mcp?token=YOUR_BRIGHTDATA_API_TOKEN",
+  "mcpServers": {
+    "Bright Data": {
+      "command": "npx",
+      "args": ["-y", "@brightdata/mcp"],
+      "env": {
+        "API_TOKEN": "YOUR_BRIGHTDATA_API_TOKEN",
+        "PRO_MODE": "false"
+      }
+    }
+  }
+}

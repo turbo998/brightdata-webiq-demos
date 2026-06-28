@@ -1,0 +1,14 @@
+{
+  "//": "Bright Data Web MCP for Cursor. Put this in ~/.cursor/mcp.json (global) or .cursor/mcp.json (project).",
+  "//_token": "Replace YOUR_BRIGHTDATA_API_TOKEN (Bright Data > account settings > API tokens).",
+  "mcpServers": {
+    "Bright Data": {
+      "command": "npx",
+      "args": ["-y", "@brightdata/mcp"],
+      "env": {
+        "API_TOKEN": "YOUR_BRIGHTDATA_API_TOKEN",
+        "PRO_MODE": "false"
+      }
+    }
+  }
+}
